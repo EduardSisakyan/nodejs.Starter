@@ -4,6 +4,6 @@ import PersonContoller from './person';
 import AuthContoller from './auth';
 
 export default (app: express.Application) => {
-  app.use('/api/person', PersonContoller);
-  app.use('/api/auth', AuthContoller);
+  app.use('/api/Person', PersonContoller);
+  app.use('/api/Auth', AuthContoller);
 };

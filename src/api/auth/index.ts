@@ -30,7 +30,7 @@ class PersonContoller {
   }
 
   public routes() {
-    this.router.post('/login', this.validation.login, this.login);
+    this.router.post('/Login', this.validation.login, this.login);
   }
 }
 
